@@ -6,6 +6,7 @@ export default defineConfig({
   base: process.env.VITE_BASE_PATH || "/2ndtry-portfolio",
   server: {
     host: '0.0.0.0',
-    port: process.env.PORT || 3000
+    port: process.env.PORT || 3000,
+    allowedHosts: ["portfo-2.onrender.com"]
   }
 })
